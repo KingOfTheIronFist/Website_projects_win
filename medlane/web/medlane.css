@@ -1,6 +1,13 @@
 @charset "UTF-8";
 /* CSS Document */
 
+html, body{
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lora', serif;
+}
+
 
 img.logo
 {
@@ -20,20 +27,41 @@ img.logo
 
 .footer-content
 {
+    
 	
 }
 
 .footer
 {
-	
-	
+    background: #303036;
+    color: #d3d3d3;
+    height: 400px;
+    position: relative;	
 }
 
+.footer.footer-content
+{
+    border: 1px solid red;
+    height: 350px;
+    display: flex;
+}
 
+.footer .footer-content .footer-section
+{
+    flex: 1;
+    border: 1px solid white;
+}
 
 .footer .footer-bottom
 {
-	
-	
-	
+    background: #343a40;
+    color: #686868;
+    height: 50px;
+    width: 100%;
+    text-algin: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+    
 }
