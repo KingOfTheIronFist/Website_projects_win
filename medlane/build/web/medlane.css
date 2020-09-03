@@ -31,6 +31,12 @@ html, body{
     text-align: center;
 }
 
+.logo
+{
+    align-content: center;
+    width: 300px;
+}
+
 /*
 img.logo
 {
