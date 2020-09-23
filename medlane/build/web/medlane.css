@@ -10,7 +10,7 @@
 html, body{
     height: 100%;
     font-family: 'Lora', serif;
-    background: #3e5669;
+    background: #white;
     
 }
 
@@ -157,7 +157,13 @@ html, body{
     
 }
 
-/*Seprated classes and Id's to create a better structure'*/
+.scial
+{
+    font-size: 40px;
+}
+
+
+/*Seprated classes and Id's to create a better code structure'*/
 
 #container{
     min-height: 100%; 
@@ -169,13 +175,13 @@ html, body{
 }
 
 #footer-bottom{
-    background-color: #000;
+    background-color: #303036;
     position: relative;
     height: 200px;
     margin-top: -100px;
     clear: both;
     color: #686868;
-    text-align: center;
+    
 }
 
 #c-service
@@ -204,7 +210,15 @@ html, body{
     margin-top: -33px;
     color: #686868;
     text-align: right;
-    font-size: 14px;
-    color: red;
+     
     
+}
+
+#c-right
+{
+    
+    position: relative;
+    color: #686868;
+    text-align: center;
+    margin-top: 130px; 
 }
