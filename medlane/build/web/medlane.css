@@ -157,9 +157,26 @@ html, body{
     
 }
 
+.main-content
+{
+    
+}
+
+.left-box
+{
+    
+}
+
 .scial
 {
     font-size: 40px;
+    position: relative;
+    float: right;
+}
+
+.content
+{
+    
 }
 
 
@@ -215,8 +232,7 @@ html, body{
 }
 
 #c-right
-{
-    
+{    
     position: relative;
     color: #686868;
     text-align: center;
