@@ -172,6 +172,7 @@ html, body{
     font-size: 40px;
     position: relative;
     float: right;
+    margin-top: -54px;
 }
 
 .content
@@ -236,5 +237,5 @@ html, body{
     position: relative;
     color: #686868;
     text-align: center;
-    margin-top: 130px; 
+    margin-top: 126px; 
 }
