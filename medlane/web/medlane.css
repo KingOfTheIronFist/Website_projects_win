@@ -288,6 +288,32 @@ footer
     margin-top: -54px;
 }
 
+.center-box .fa 
+{
+    font-size: 1.4375rem;
+    background: #1a1a1a;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    border-radius: 50%;
+    transition: 0.36s;
+    cursor: pointer;
+    
+}
+
+.center-box .fa:hover
+{
+    background: #f12020;
+    
+}
+
+.center-box .text
+{
+    font-size: 1.0625rem;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
 
 
 
