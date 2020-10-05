@@ -157,6 +157,16 @@ html, body{
     
 }
 
+footer
+{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: #111;
+}
+
+
+
 .main-content
 {
  
@@ -170,6 +180,20 @@ html, body{
     padding: 10px 20px;
 }
 
+.right-box h1
+{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.center-box h1
+{
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
 .left-box h1
 {
     font-size: 1.125rem;
@@ -177,9 +201,21 @@ html, body{
     text-transform: uppercase;
 }
 
+
 .left-box .content
 {
-    margin: 20px 0 0 0;
+    margin: 15px 0 0 0;
+}
+
+
+.center-box .content
+{
+    margin: 15px 0 0 0;
+}
+
+.right-box .content
+{
+    margin: 15px 0 0 0;
 }
 
 .left-box .content p
@@ -188,7 +224,7 @@ html, body{
 }
 .left-box .scial
 { 
-    margin: 20px 0 0 0;
+    margin: 25px 0 0 0;
 }
 
 .left-box .content .scial a
@@ -208,32 +244,52 @@ html, body{
     transition: 0.3s;
 }
 
-.left-box .content .scial a span
+.left-box .content .scial a span:hover
 {
     background: #f12020;
     
 }
 
+.center-box .location
+{
+    margin: 0 2px;
+}
+
+
+.center-box .email
+{
+    padding: 0 2px;
+}
+
+
+.right-box .content .customer-email
+{
+    padding: 0 2px;
+}
+
+
+.right-box .content .text
+{
+    padding: 0 2px;
+}
+
+
+.right-box .content .cbtn
+{
+    padding: 0 2px;
+}
+
+
 .scial
 {
     font-size: 40px;
     position: relative;
-    float: right;
+    float: left;
     margin-top: -54px;
 }
 
-.content
-{
-    
-}
 
-footer
-{
-    position: fixed;
-    bottom: 0px;
-    width: 100%;
-    background: #111;
-}
+
 
 
 
